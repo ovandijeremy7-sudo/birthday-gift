@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selamat Ulang Tahun 🎉</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center px-4">
+  <div class="bg-white shadow-2xl rounded-2xl p-6 sm:p-8 max-w-md w-full text-center">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-pink-500 mb-4">🎂 Selamat Ulang Tahun! 🎂</h1>
+    
+    <p class="text-base sm:text-lg text-gray-700 mb-6">
+      Semoga harimu dipenuhi dengan cinta, tawa, dan segala hal yang membuatmu tersenyum.  
+      Semoga tahun ini membawa kebahagiaan, kesuksesan, dan kenangan tak terlupakan.
+    </p>
+
+    <div class="text-5xl sm:text-6xl mb-6">🎉🎈🎁</div>
+
+    <p class="text-gray-600 italic text-sm sm:text-base">
+      "Hitunglah hidupmu dengan senyuman, bukan air mata.  
+      Hitunglah usiamu dengan sahabat, bukan angka tahun."
+    </p>
+
+    <button onclick="celebrate()" class="mt-6 px-6 py-3 bg-pink-500 text-white rounded-xl shadow hover:bg-pink-600 transition w-full sm:w-auto">
+      Klik untuk Kejutan 🎊
+    </button>
+
+    <p id="surprise" class="mt-4 text-lg sm:text-xl font-semibold text-purple-600 hidden">
+      Kamu luar biasa! Semoga ulang tahunmu jadi yang terbaik! 💖
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
